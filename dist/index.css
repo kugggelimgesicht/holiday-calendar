@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+#today {
+  background-color: tomato;
+  color: white;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  background-color: rgb(255, 245, 189);
+}
+
+#settings {
+  width: 35%;
+  padding: 5%;
+  margin-top: 2%;
+}
+
+#calendar-container {
+  width: 35%;
+  margin: 20px;
+}
+
+#description {
+  width: 30%;
+  padding: 15% 5%;
+  font-size: 26px;
+}
+
+#description:hover, li:hover {
+  text-shadow: 1px 1px 1px rgb(214, 137, 137);
+}
+
+#month-year {
+  text-align: center;
+}
+
+td:nth-child(6), td:nth-child(7) {
+  color: tomato;
+}
+
+.religious {
+  border: 5px solid rgb(208, 255, 0);
+}
+
+.national {
+  border: 5px solid rgb(169, 74, 233);
+}
+
+.local {
+  border: 5px solid rgb(0, 255, 213);
+}
+
+.observance {
+  border: 5px solid rgb(37, 93, 158);
+}
+
+option {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 20px;
+}
+
+#select, #current-year {
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 10%;
+  transition: 0.2s;
+}
+
+#current-year {
+  margin-left: 93%;
+}
+
+#events {
+  margin-top: 10%;
+}
+
+#calendar {
+  box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.75);
+  margin-top: 30%;
+  background-color: white;
+}
+
+select:hover {
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  transition: 0.3s;
+}
+
+tbody td:hover {
+  box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(175, 52, 52);
+}
+
+header {
+  width: 100%;
+  height: 64px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: tomato;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: tomato;
+}
