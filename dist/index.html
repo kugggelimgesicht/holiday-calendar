@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header></header>
+
+  <div id="settings">
+    <select id="select" multiple>
+    </select>
+
+    <div id="events">
+      <ol id="holidays"></ol>
+    </div>
+  </div>
+
+  <div id="calender-container">
+    <table id="calendar">
+      <thead>
+        <tr>
+          <td colspan="3"><input type="number" value="" min="1970" max="2050" size="4" id="current-year">
+        </tr>
+        <tr>
+          <td id="back">‹
+          <td colspan="5" id="month-year"></td>
+          <td id="forward">›</td>
+        <tr>
+          <td>Mo</td>
+          <td>Tu</td>
+          <td>We</td>
+          <td>Th</td>
+          <td>Fr</td>
+          <td>Sa</td>
+          <td>Su</td>
+      <tbody id="tbody">
+    </table>
+  </div>
+
+  <div id="description"></div>
+  <footer></footer>
+  <script src='main.js'></script>
+</body>
+
+</html>
